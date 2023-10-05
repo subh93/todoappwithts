@@ -38,7 +38,7 @@ function Todos() {
                                 <>
                                 <button type="button" 
                                         onClick={()=>handleDeleteTodo(todo.id)}
-                                        className="bg-red-600 text-orange-100 w-1/5 mx-auto py-1 rounded-md font-medium italic"
+                                        className="bg-red-600 text-orange-100 text-xs lg:text-lg w-1/5 mx-auto py-1 rounded-md font-medium italic"
                                 >Delete</button>
                                 </>
                             )
